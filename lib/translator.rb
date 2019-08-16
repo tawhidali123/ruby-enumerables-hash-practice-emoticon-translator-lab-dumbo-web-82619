@@ -8,13 +8,13 @@ def load_library(file_path)
     :get_meaning => {}
   }
   
-  emoticon.each{
-    |description, emoji|
-    english = description
-    japanese = emoji
-    hash[:get_emoticon] = english  
-    hash[:get_meaning] = japanese  
-  }
+  # emoticon.each{
+  #   |description, emoji|
+  #   english = description
+  #   japanese = emoji
+  #   hash[:get_emoticon] = english  
+  #   hash[:get_meaning] = japanese  
+  # }
 
   
   return hash
