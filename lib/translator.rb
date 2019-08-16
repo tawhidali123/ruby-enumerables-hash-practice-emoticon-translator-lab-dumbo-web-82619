@@ -26,6 +26,9 @@ def get_japanese_emoticon(file_path, emoticon)
   jap_hash = load_library(file_path)
   
   jap_emoji = jap_hash[:get_emoticon][emoticon]
+  
+  if 
+  
   return jap_emoji
   
 end
