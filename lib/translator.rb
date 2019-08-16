@@ -2,9 +2,11 @@
 
 
 def load_library(file_path)
-  # require "yaml"
+  require "yaml"
+  
   # file = File.read(file_path)
   # emoticons = YAML.load(file)
+  
   emoticons = YAML.load_file(file_path)
   
   hash = {
