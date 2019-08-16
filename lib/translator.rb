@@ -12,8 +12,8 @@ def load_library(file_path)
     |description, emoji|
     english = emoji[0]
     japanese = emoji[1]
-    hash[:get_emoticon][english] = japanese  
-    hash[:get_meaning][japanese] = description  
+    hash[:get_emoticon] = english  
+    hash[:get_meaning] = japanese  
   }
 
   
