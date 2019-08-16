@@ -25,6 +25,11 @@ end
 def get_japanese_emoticon(file_path, load_library)
   load_library(file_path)
   
+  hash.each{
+    |get_val, value|
+    if get_val == get_emoticon
+      
+  }
   
 end
 
