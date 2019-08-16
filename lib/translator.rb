@@ -4,7 +4,9 @@ require "yaml"
 def load_library(file_path)
   emoticon = YAML.load(file_path)
   hash = {
-    :get_emoticon => {},
+    :get_emoticon => {
+      emoticon[1]
+    },
     :get_meaning => {}
   }
   
