@@ -12,8 +12,10 @@ def load_library(file_path)
   
   emoticons.each{
     |meaning, emoji|
-    hash[:get_meaning][emoji[1]] = 
+    hash[:get_meaning][emoji[1]] = meaning
+    hash[:get_emoticon][emoji[0]] = emoji[1]
   }
+  return hash
 end
 
 def get_japanese_emoticon
