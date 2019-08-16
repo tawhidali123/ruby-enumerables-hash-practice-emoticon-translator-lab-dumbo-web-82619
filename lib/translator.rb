@@ -1,7 +1,8 @@
 # require modules here
-require "yaml"
+
 
 def load_library(file_path)
+  require "yaml"
   # file = File.read(file_path)
   # emoticons = YAML.load(file)
   emoticons = YAML.load_file(file_path)
