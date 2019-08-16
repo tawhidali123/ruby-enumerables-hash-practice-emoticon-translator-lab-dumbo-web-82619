@@ -10,7 +10,10 @@ def load_library(file_path)
     :get_emoticon => {}
   }
   
-  
+  emoticons.each{
+    |meaning, emoji|
+    hash[:get_meaning][emoji[1]] = 
+  }
 end
 
 def get_japanese_emoticon
